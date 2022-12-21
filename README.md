@@ -6,10 +6,10 @@
 Install my-project with npm
 
 ```bash
---/SmartCode-IEEE-Mumbai
+.../SmartCode-IEEE-Mumbai
 $ cd Smartcode/
 
---/SmartCode-IEEE-Mumbai/Smartcode
+.../SmartCode-IEEE-Mumbai/Smartcode
 $ npm run dev
 ```
     
