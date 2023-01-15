@@ -2,15 +2,24 @@
 
 ### Internship Project : Real Time Collaborative Code Editor with Chat App
 
-## Run on localhost
+SmartCode is a real-time collaborative online code editor. Users can talk using the chat app in real time over the internet using our web-based application.
 
-Install my-project with npm
+
+## Steps to run project on localhost
+
+## Get started
+
+Install the dependencies...
 
 ```bash
-.../SmartCode-IEEE-Mumbai
-$ cd Smartcode/
-
-.../SmartCode-IEEE-Mumbai/Smartcode
-$ npm run dev
+cd svelte-app
+npm install
 ```
-    
+
+...then start [Rollup](https://rollupjs.org):
+
+```bash
+npm run dev
+```
+
+Navigate to [localhost:5000](http://localhost:5000)
