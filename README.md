@@ -9,6 +9,14 @@ SmartCode is a real-time collaborative online code editor. Users can talk usin
 
 ![Samyak Internship_Realtime ChatApp Svelte_Video Demo](https://user-images.githubusercontent.com/62803746/212531403-3625535d-1959-4b2f-9eab-951728464b01.gif)
 
+
+#### Contribution
+
+Samyak - Realtime ChatApp
+Harsh - Code Editor Page
+Varsha - Landing Page
+Sampriti - Linking all pages
+
 ## Steps to run project on localhost
 
 ## Get started
