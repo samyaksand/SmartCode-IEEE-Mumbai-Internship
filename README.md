@@ -4,6 +4,11 @@
 
 SmartCode is a real-time collaborative online code editor. Users can talk using the chat app in real time over the internet using our web-based application.
 
+
+### Demo Video
+
+![Samyak Internship_Realtime ChatApp Svelte_Video Demo](https://user-images.githubusercontent.com/62803746/212531403-3625535d-1959-4b2f-9eab-951728464b01.gif)
+
 ## Steps to run project on localhost
 
 ## Get started
