@@ -5,6 +5,7 @@
 SmartCode is a real-time collaborative online code editor. Users can talk using the chat app in real time over the internet using our web-based application.
 
 ### SmartCode Website - https://team74-ieee-mumbai-internship.netlify.app/
+### SmartCode Working page - https://smartcode-ieee-internship.netlify.app/
 ### SvelteJS Real Time ChatApp Website  - https://samyaksand-sveltejs-chat-app-ieee-internship.vercel.app/
 
 ### ChatApp Demo Video
