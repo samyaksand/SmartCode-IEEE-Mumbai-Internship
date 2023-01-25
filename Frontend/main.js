@@ -1,5 +1,5 @@
 
-// Firebase importation start
+
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js'
 const firebaseConfig = {
   apiKey: 'AIzaSyAz3d_xBg_2S4hBOxEd7gRT13cYrPVKbDs',
@@ -23,11 +23,9 @@ import {
 const db = getDatabase()
 // Firebase importation Ends
 
-
 // Importing the elements START
 var fname = document.getElementById('Filename')
 // var edt = document.getElementById('editor')
-
 var edtcontainer = document.getElementById('code')
 let lan = document.getElementById("language");
 var editor = ace.edit("editor");
@@ -40,24 +38,33 @@ var delBtn = document.getElementById('Delbtn')
 // Importing the elements END
 
 
-// Creating the funtions
 let k;
+
 function write() {
   k = lan.value;
   editor.session.setMode("ace/mode/" + k);
-
   let m = editor.getValue();
   // editor.setValue(m);
-
-  console.log(m);
+  // console.log(m);
 }
 write();
-
-
+let j = 0;
 
 function InsertData() {
 
   let data = editor.getValue();
+
+  if(fname.value == ""){
+    alert("enter file name")
+    return;
+  }
+  
+  const para = document.createElement("div");
+  para.className = "file";
+  para.setAttribute('id' , j);
+  j++;
+  para.innerHTML = fname.value;
+  document.getElementById("home-container05").appendChild(para);
 
   set(ref(db, 'CODE/' + fname.value), {
     code: data,
@@ -68,7 +75,28 @@ function InsertData() {
     .catch((error) => {
       alert('unsuccessful, error' + error)
     })
+
 }
+
+// let filedom = document.getElementsByClassName("file");
+// const buttonGroup = document.getElementById("home-container05");
+// const result = document.getElementById("result");
+// const buttonGroupPressed = e => { 
+  
+//   const isButton = e.target.nodeName === 'BUTTON';
+  
+//   if(!isButton) {
+//     return
+//   }
+  
+//    fname.value = `ID of <em>${e.target.innerHTML}</em>`;
+  
+// }
+// buttonGroup.addEventListener("click", buttonGroupPressed);
+
+
+
+// firebase_node.once('value', function(snapshot) { alert('Count: ' + snapshot.numChildren()); });
 
 function SelectData() {
   const dbref = ref(db)
@@ -109,8 +137,11 @@ function DeleteData() {
     });
 }
 
+// e.addEventListener('click' , setfileName(e))
+
 lan.addEventListener('click', write);
 insBtn.addEventListener('click', InsertData);
+// insBtn.addEventListener('click', make);
 selBtn.addEventListener('click', SelectData);
 updBtn.addEventListener('click', UpdateData);
 delBtn.addEventListener('click', DeleteData);
