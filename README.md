@@ -9,7 +9,7 @@ SmartCode is a real-time collaborative online code editor. Users can talk usin
 ### SvelteJS Real Time ChatApp Website  - https://samyaksand-sveltejs-chat-app-ieee-internship.vercel.app/
 
 ### ChatApp Demo Video
-![Samyak Internship_Realtime ChatApp Svelte_Video Demo](https://github.com/samyaksand/SmartCode-IEEE-Mumbai-Internship/blob/main/Frontend/public/playground_assets/Smart%20Code%20-%20Made%20with%20Clipchamp.gif)
+![Code Editor](https://github.com/samyaksand/SmartCode-IEEE-Mumbai-Internship/blob/main/Frontend/public/playground_assets/Smart%20Code%20-%20Made%20with%20Clipchamp.gif)
 ![Samyak Internship_Realtime ChatApp Svelte_Video Demo](https://user-images.githubusercontent.com/62803746/212531403-3625535d-1959-4b2f-9eab-951728464b01.gif)
 
 ## Contribution
