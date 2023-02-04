@@ -4,7 +4,14 @@
 SmartCode is a real-time collaborative online code editor. Users can talk using the chat app in real time over the internet using our web-based application.
 
 <img src="https://user-images.githubusercontent.com/62803746/216034191-2ea82f42-b33b-41ed-86ac-1f677bd75ce4.png" data-canonical-src="https://user-images.githubusercontent.com/62803746/216034191-2ea82f42-b33b-41ed-86ac-1f677bd75ce4.png" width="300" height="300"  class="center" />
+
 <img src="https://raw.githubusercontent.com/abir2001/image-ieee/main/Code%20Smartly%20with%20SmartCode.png" data-canonical-src="https://raw.githubusercontent.com/abir2001/image-ieee/main/Code%20Smartly%20with%20SmartCode.png" width="300" height="300"  class="center" />
+=======
+<img
+  src="https://raw.githubusercontent.com/abir2001/image-ieee/main/Code%20Smartly%20with%20SmartCode.png"
+  alt="Alt text"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
 
 ### SmartCode Website - https://team74-ieee-mumbai-internship.netlify.app/
 ### Code Editor page - https://smartcode-ieee-internship.netlify.app/
