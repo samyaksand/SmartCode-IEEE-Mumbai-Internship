@@ -3,12 +3,9 @@
 ### Internship Project : Real Time Collaborative Code Editor with Chat App
 SmartCode is a real-time collaborative online code editor. Users can talk using the chat app in real time over the internet using our web-based application.
 
-<img src="https://user-images.githubusercontent.com/62803746/216034191-2ea82f42-b33b-41ed-86ac-1f677bd75ce4.png" data-canonical-src="https://user-images.githubusercontent.com/62803746/216034191-2ea82f42-b33b-41ed-86ac-1f677bd75ce4.png" width="300" height="300"  class="center" />
-<img
-  src="https://raw.githubusercontent.com/abir2001/image-ieee/main/Code%20Smartly%20with%20SmartCode.png"
-  alt="Alt text"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
+<img src="https://user-images.githubusercontent.com/62803746/216034191-2ea82f42-b33b-41ed-86ac-1f677bd75ce4.png" data-canonical-src="https://user-images.githubusercontent.com/62803746/216034191-2ea82f42-b33b-41ed-86ac-1f677bd75ce4.png" width="300" height="300" />
+<img src="https://user-images.githubusercontent.com/62803746/216753880-850f5aba-dd3e-4b6b-ab37-1f4d910ae2ab.png" style="display: inline-block; width: 300px" height="300" >
 
 
 ### SmartCode Website - https://team74-ieee-mumbai-internship.netlify.app/
