@@ -1,5 +1,7 @@
 # SmartCode-IEEE-Mumbai
 
+[![Hits](https://hits.sh/github.com/samyaksand/SmartCode-IEEE-Mumbai-Internship.svg?style=for-the-badge&label=Total%20Views&extraCount=240&color=0c6ef1)](https://hits.sh/github.com/samyaksand/SmartCode-IEEE-Mumbai-Internship/)
+
 ### Internship Project : Real Time Collaborative Code Editor with Chat App
 SmartCode is a real-time collaborative online code editor. Users can talk using the chat app in real time over the internet using our web-based application.
 
